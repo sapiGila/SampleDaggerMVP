@@ -18,6 +18,7 @@ public class DaggerApp extends Application {
     public void onCreate() {
         super.onCreate();
         realmConfigurator = new RealmConfigurator(this);
+        realmConfigurator.init();
         injector = new Injector();
         injector.setAppComponent(this);
     }

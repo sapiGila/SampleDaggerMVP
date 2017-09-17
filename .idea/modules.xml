@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DaggerApp.iml" filepath="$PROJECT_DIR$/DaggerApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SampleDaggerMVP.iml" filepath="$PROJECT_DIR$/SampleDaggerMVP.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

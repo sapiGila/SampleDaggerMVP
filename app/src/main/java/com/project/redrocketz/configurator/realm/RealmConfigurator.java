@@ -15,13 +15,18 @@ public class RealmConfigurator {
 
     private RealmConfiguration realmConfiguration;
     private Realm realm;
+    private Context context;
 
     public RealmConfigurator(Context context) {
-        Realm.init(context);
+        this.context = context;
     }
 
     public RealmConfigurator() {
         configRealm();
+    }
+
+    public void init() {
+        Realm.init(context);
     }
 
     private void configRealm() {
